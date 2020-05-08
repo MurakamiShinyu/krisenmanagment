@@ -64,16 +64,16 @@
 .txtspace p  {
   letter-spacing: 0.3pt !important;
   word-spacing: 0.3pt !important;
-  line-height: 16pt;
+  line-height: 1.488rem; /* 16pt */
 }
 
 h3.titlepageSub {
   color: black;
-  font-size: 14pt;
+  font-size: 1.302rem; /* 14pt */
   font-weight: normal;
   text-align: center;
   text-transform: none;
-  line-height: 20pt;
+  line-height: 1.860rem; /* 20pt */
   margin-bottom: 30pt;
 }
 
@@ -83,11 +83,11 @@ p.titlepagePar {
 
 p.titlepageSub {
   color: black;
-  font-size: 14pt;
+  font-size: 1.302rem; /* 14pt */
   font-weight: normal;
   text-align: center;
   text-transform: none;
-  line-height: 20pt;
+  line-height: 1.860rem; /* 20pt */
   margin-bottom: 30pt;
 }
 
@@ -100,7 +100,7 @@ p.titlepageSub {
 .logo p {
  color: black;
  font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
-  font-size: 9pt;
+  font-size: 0.837rem; /* 9pt */
   font-weight: 300;
   margin-top: 24pt;
   text-align: center;
@@ -191,15 +191,15 @@ video {
 html {
   font-family: -apple-system,BlinkMacSystemFont,"noto serif",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
   font-weight: normal;
-  font-size: 10.75pt;
+  font-size:  89.58%; /* 10.75pt */
   color: black;
   hyphens: auto;
 }
 
 p {
   font-family: -apple-system,BlinkMacSystemFont,"noto serif",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
-  font-size: 9pt;
-  line-height: 14pt;
+  font-size: 0.837rem; /* 9pt */
+  line-height: 1.302rem; /* 14pt */
   /*text-align: justify;*/
   margin-bottom: 0pt;
   letter-spacing: 0.2pt;
@@ -225,7 +225,7 @@ p:first-of-type {
 
 .Kolophon p {
   font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
-  font-size:8pt;
+  font-size: 0.744rem; /* 8pt */
 }
 
 .Kolophon p + p {
@@ -241,16 +241,16 @@ p.start { text-indent: 0em; margin-top: 0em }
 p.divide { text-align: center }
 p.author {
   color: black;
-  font-size: 14pt;
+  font-size: 1.302rem; /* 14pt */
   font-weight: normal;
   text-align: center;
   text-transform: none;
-  line-height: 20pt;
+  line-height: 1.860rem; /* 20pt */
   margin-bottom: 30pt;
 }
 
 p.copyright {
-  font-size: 9.75pt;
+  font-size: 0.907rem; /* 9.75pt */
   text-align: left;
 }
 
@@ -311,7 +311,7 @@ var .Italic {
 }
 
 sup {
-  font-size: 9.75pt;
+  font-size: 0.907rem; /* 9.75pt */
   font-weight: inherit;
   position: relative;
   top: -3px;
@@ -319,8 +319,8 @@ sup {
 }
 
 .references p {
-  line-height: 10.8pt;
-  font-size: 9pt;
+  line-height: 1.005rem; /* 10.8pt */
+  font-size: 0.837rem; /* 9pt */
 }
 
 blockquote {
@@ -328,7 +328,7 @@ blockquote {
   width: 80%;
   position: relative;
   font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
-  font-size: 11pt;
+  font-size: 1.023rem; /* 11pt */
   vertical-align: baseline;
   margin-top: 9pt;
   margin-bottom: 9pt;
@@ -370,7 +370,7 @@ h6 {
 
 h1 {
   font-family : -apple-system,BlinkMacSystemFont,"noto serif",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
-  font-size: 24pt;
+  font-size: 2.233rem; /* 24pt */
   color: rgb(58,172,196);
   margin-bottom: 2em;
   margin-top: 2em;
@@ -389,7 +389,7 @@ h1 {
 h1 strong { font-weight: normal;}
 
 h2 {
-  font-size: 15pt;
+  font-size: 1.395rem; /* 15pt */
   font-family: "noto sans medium", helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
   text-transform: none;
   font-weight: normal;
@@ -401,7 +401,7 @@ h2 {
 }
 
 h3 {
-  font-size: 13pt;
+  font-size: 1.209rem; /* 13pt */
   margin-top: 20pt;
   page-break-inside: avoid;
   page-break-after: avoid;
@@ -410,7 +410,7 @@ h3 {
 }
 
 h4 {
-  font-size: 11pt;
+  font-size: 1.023rem; /* 11pt */
   margin-top: 20pt;
   margin-bottom: 9pt;
   font-weight: normal;
@@ -420,7 +420,7 @@ h4 {
 
 h5 {
   font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
-  font-size: 10pt;
+  font-size: 0.930rem; /* 10pt */
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 500;
@@ -443,21 +443,21 @@ h1:before {
   display: block;
   text-transform: none;
   counter-increment: chapter;
-  font-size: 10pt;
+  font-size: 0.930rem; /* 10pt */
   margin-bottom: 13pt;
   letter-spacing: 1pt;
 }
 
 .footnotes ol {
-  font-size: 9pt;
-  line-height: 10.8pt;
+  font-size: 0.837rem; /* 9pt */
+  line-height: 1.005rem; /* 10.8pt */
   list-style-position: outside;
 }
 
 .footnotes ol li p {
   text-indent: 0;
-  font-size: 9pt;
-  line-height: 10.75pt;
+  font-size: 0.837rem; /* 9pt */
+  line-height: 1rem; /* 10.75pt */
   word-wrap: break-word;
 }
 
@@ -468,7 +468,7 @@ h1:before {
 li[id*="fn"] {
   color: black;
   text-indent: 0;
-  font-size: 9.75pt;
+  font-size: 0.907rem; /* 9.75pt */
   margin-left: 1.3pc;
 }
 
@@ -501,7 +501,7 @@ figure figcaption {
   color: black;
   text-indent: 0;
   text-align: center;
-  font-size: 8pt;
+  font-size: 0.744rem; /* 8pt */
   font-style: italic;
 }
 
@@ -555,8 +555,8 @@ ul {
   margin-left: 0;
   margin-right: 0;
   padding-left: 30px;
-  font-size: 9pt;
-  line-height: 14pt;
+  font-size: 0.837rem; /* 9pt */
+  line-height: 1.302rem; /* 14pt */
 }
 
 #page-navigation ol {
@@ -574,8 +574,8 @@ ol {
   margin-left: 0;
   margin-right: 0;
   padding-left: 40px;
-  font-size: 9pt;
-  line-height: 14pt;
+  font-size: 0.837rem; /* 9pt */
+  line-height: 1.302rem; /* 14pt */
 }
 
 a {
@@ -596,7 +596,7 @@ table {
   border-left: 0;
   border-right: 0;
   text-align: left;
-  font-size: 8pt;
+  font-size: 0.744rem; /* 8pt */
 }
 
 
@@ -646,7 +646,7 @@ table p,
 table ul,
 table li,
 table ol {
-  font-size: 8pt;
+  font-size: 0.744rem; /* 8pt */
   margin: 0;
   font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
   text-align: left;
@@ -794,7 +794,7 @@ table + p + p {
 }
 
 section[data-type="toc"] h1.toc {
-  font-size: 26pt;
+  font-size: 2.419rem; /* 26pt */
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
@@ -805,7 +805,7 @@ section[data-type="toc"] h4 {
   margin-bottom: 0em;
   letter-spacing: 0.2pt;
   word-spacing: 1px;
-  font-size: 10pt;
+  font-size: 0.930rem; /* 10pt */
 }
 
 section[data-type="toc"] ul li {
@@ -844,7 +844,7 @@ section[data-type="toc"] a:after {
   content: target-counter(attr(href, url), page);
   display: inline-block;
   float: right;
-  font-size: 10pt;
+  font-size: 0.930rem; /* 10pt */
 }
 
 [data-name="bookintro1"] {
